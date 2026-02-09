@@ -17,24 +17,40 @@ del medio ambiente, la gestión ambiental y las 3 R.
 ## 📂 Estructura del proyecto
 
 web_medio_ambiente/
-│
-├── app.py
-├── templates/
-│ ├── base.html
-│ ├── index.html
-│ ├── sistema.html
-│ ├── futuro.html
-│ └── tres_r.html
-│
-├── static/
-│ └── images/
-│ ├── ambiente.jpg
-│ ├── sistema.jpg
-│ ├── futuro.jpg
-│ └── reciclaje.jpg
-│
-└── venv/
 
+│
+
+├── app.py
+
+├── templates/
+
+│ ├── base.html
+
+│ ├── index.html
+
+│ ├── sistema.html
+
+│ ├── futuro.html
+
+│ └── tres_r.html
+
+│
+
+├── static/
+
+│ └── images/
+
+│ ├── ambiente.jpg
+
+│ ├── sistema.jpg
+
+│ ├── futuro.jpg
+
+│ └── reciclaje.jpg
+
+│
+
+└── venv/
 
 ## 🚀 Funcionalidades
 
