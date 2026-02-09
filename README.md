@@ -79,13 +79,13 @@ http://127.0.0.1:5000
 A continuación se muestran algunas vistas del proyecto:
 
 ### Página de Inicio
-![Inicio](screenshots/inicio.png)
+![Inicio](./static/screenshots/inicio.png)
 
 ### Sistema de Gestión Ambiental
-![Sistema](screenshots/sistema.png)
+![Sistema](./static/screenshots/sistema.png)
 
 ### Futuro del Planeta
-![Futuro](screenshots/futuro.png)
+![Futuro](./static/screenshots/futuro.png)
 
 ### Las 3 R
-![TresR](screenshots/TresR.png)
+![TresR](./static/screenshots/TresR.png)
