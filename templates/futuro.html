@@ -1,22 +1,29 @@
 {% extends "base.html" %} {% block content %}
-<h2>El planeta que dejaremos a nuestros hijos</h2>
-<img
-  src="{{ url_for('static', filename='images/futuro.jpg') }}"
-  class="img-fluid rounded mb-3"
-/>
-<p>
-  Las decisiones que tomamos hoy impactarán directamente la calidad de vida de
-  las próximas generaciones.
-</p>
-<p>
-  El cambio climático, la pérdida de biodiversidad y la escasez de recursos
-  naturales son retos urgentes que requieren la participación activa de la
-  sociedad, gobiernos y empresas.
-</p>
+<div class="row align-items-center">
+  <h2>El planeta que dejaremos a nuestros hijos</h2>
+  <div class="col-md-6">
+    <p>
+      Las decisiones que tomamos hoy impactarán directamente la calidad de vida
+      de las próximas generaciones.
+    </p>
+    <p>
+      El cambio climático, la pérdida de biodiversidad y la escasez de recursos
+      naturales son retos urgentes que requieren la participación activa de la
+      sociedad, gobiernos y empresas.
+    </p>
 
-<p>
-  Pensar en el futuro del planeta implica tomar decisiones responsables hoy,
-  fomentando la educación ambiental y el uso sostenible de los recursos.
-</p>
+    <p>
+      Pensar en el futuro del planeta implica tomar decisiones responsables hoy,
+      fomentando la educación ambiental y el uso sostenible de los recursos.
+    </p>
+  </div>
+  <div class="col-md-6">
+    <img
+      src="{{ url_for('static', filename='images/futuro.jpg') }}"
+      class="img-fluid rounded shadow-sm mb-4 d-block mx-auto"
+      alt="Futuro del planeta"
+    />
+  </div>
+</div>
 
 {% endblock %}
