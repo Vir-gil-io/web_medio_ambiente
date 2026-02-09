@@ -1,18 +1,23 @@
 {% extends "base.html" %} {% block content %}
 <h2>Las 3 R del cuidado ambiental</h2>
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-4 text-center">
     <h4>Reducir</h4>
     <p>Consumir solo lo necesario.</p>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 text-center">
     <h4>Reutilizar</h4>
     <p>Dar una segunda vida a los objetos.</p>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 text-center">
     <h4>Reciclar</h4>
     <p>Transformar residuos en nuevos productos.</p>
   </div>
+  <p class="mt-4">
+    Las 3 R representan una estrategia fundamental para disminuir la cantidad de
+    residuos generados. Aplicarlas en la vida diaria contribuye directamente a
+    la conservación del medio ambiente.
+  </p>
 </div>
 <img
   src="{{ url_for('static', filename='images/reciclaje.jpg') }}"
